@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 Hungergames is a modern implementation of the original 2012 Minecraft Hungergames. This is a thirlling survival game based on the renowned HungerGames book/movie series. In this free-for-all battle, players must hunt for food and resources and be the last one alive.
 
-## Why this plugin?
+## **Why this plugin?**
 
 Built from the ground up for modern versions of the game, compatible with latest versions and modern features.
 
@@ -12,7 +12,7 @@ Regular updates and bug fixes ensure the plugin remains reliable and up-to-date.
 
 The most popular HungerGames plugin on Modrinth and one of the most popular on Spigot, with over 3000 downloads across various platforms.
 
-## Features
+## **Features**
 
 - Robust announcement system with customizable messages
 - Customizable arena allowing for all types of maps to work

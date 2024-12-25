@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ayman-isam', // Usually your GitHub org/user name.
-  projectName: 'hgdocs', // Usually your repo name.
+  projectName: 'HungerGames-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
