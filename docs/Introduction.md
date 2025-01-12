@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-Hungergames is a modern implementation of the original 2012 Minecraft Hungergames. This is a thirlling survival game based on the renowned HungerGames book/movie series. In this free-for-all battle, players must hunt for food and resources and be the last one alive.
+Hungergames is a modern implementation of the original 2012 Minecraft Hungergames. This is a thrilling survival game based on the renowned HungerGames book/movie series. In this free-for-all battle, players must hunt for food and resources and be the last one alive.
 
 ## **Why this plugin?**
 

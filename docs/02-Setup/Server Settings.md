@@ -4,7 +4,7 @@ sidebar_position: 2
 
 Since this plugin modifies the game in a major way, it is recommended to change some server settings to ensure the plugin runs optimally. This page contains the recommended settings for the HungerGames plugin.
 
-### **Allow-flight**
+### **Allow Flight**
 ```yaml
 allow-flight: true
 ```
@@ -26,7 +26,7 @@ Setting this to true ensures that when players join the game, their Gamemode is 
 ```yaml
 gamemode=adventure
 ```
-Recommended to have it at Adventure since it doesn't allow players to break blocks. Can also be set to Survival to allow players to break certain blocks. For more info on allowing certain blocks to be broken, visit [Plugin Settings](/docs/03-Configuration/Plugin%20Settings.md).
+Recommended to have it at Adventure since it doesn't allow players to break blocks. Can also be set to Survival to allow players to break certain blocks. For more info on allowing certain blocks to be broken, visit [Plugin Settings](/docs/04-Configuration/Plugin%20Settings.md).
 
 ### **Spawn Mobs**
 ```yaml
@@ -43,7 +43,7 @@ spawn-protection=0
 Setting this to 0 disables Spawn Protection, which is needed so that players can click on signs, open chests and break blocks near the world spawn.
 
 ## **Next Steps**
-After configuring the settings, proceed to the [Worlds](/docs/02-Setup/Worlds.md) section to set up the worlds for HungerGames.
+After configuring the settings, proceed to the [Worlds](Worlds.md) section to set up the worlds for HungerGames.
 
 ---
 
