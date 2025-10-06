@@ -150,6 +150,27 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+        algolia: {
+            // The application ID provided by Algolia
+            appId: 'LUP9A2GHUQ',
+
+            // Public API key: it is safe to commit it
+            apiKey: '4f092a6fd92ca86e2b0b063ec32d88c2',
+
+            indexName: 'hungergames-aymanisam',
+
+            // Optional: see doc section below
+            contextualSearch: true,
+
+            // Optional: Algolia search parameters
+            searchParameters: {},
+
+            // Optional: path for search page that enabled by default (`false` to disable it)
+            searchPagePath: 'search',
+
+            // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+            insights: false,
+        },
     }),
 };
 
