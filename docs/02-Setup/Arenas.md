@@ -1,5 +1,8 @@
 ---
-sidebar_position: 4
+id: arenas
+title: Arenas
+slug: /setup/arenas
+sidebar-position: 4
 ---
 
 Arenas are a crucial part of the plugin as they are where the games take place. You can set up multiple arenas but at least one is required for the plugin to function. The arenas dictate where supply drops are spawned, where chests are refilled along with other features of the plugin. This page contains the instructions on how to set up each arena for HungerGames.

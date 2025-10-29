@@ -1,4 +1,7 @@
 ---
+id: signs
+title: Signs
+slug: /setup/signs
 sidebar_position: 5
 ---
 

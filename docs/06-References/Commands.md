@@ -1,5 +1,8 @@
 ---
-sidebar_position: 2
+id: commands
+title: Commands
+slug: /references/commands
+sidebar_position: 1
 ---
 
 This page provides detailed information about the commands available in the HungerGames plugin, along with their required permissions.

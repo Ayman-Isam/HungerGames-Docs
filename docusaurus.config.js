@@ -42,18 +42,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          routeBasePath: 'docs',
+          sidebarPath: require.resolve('./sidebars.js'),
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -150,27 +142,27 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-        algolia: {
-            // The application ID provided by Algolia
-            appId: 'LUP9A2GHUQ',
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'LUP9A2GHUQ',
 
-            // Public API key: it is safe to commit it
-            apiKey: '4f092a6fd92ca86e2b0b063ec32d88c2',
+        // Public API key: it is safe to commit it
+        apiKey: '4f092a6fd92ca86e2b0b063ec32d88c2',
 
-            indexName: 'hungergames-aymanisam',
+        indexName: 'hungergames-aymanisam',
 
-            // Optional: see doc section below
-            contextualSearch: true,
+        // Optional: see doc section below
+        contextualSearch: true,
 
-            // Optional: Algolia search parameters
-            searchParameters: {},
+        // Optional: Algolia search parameters
+        searchParameters: {},
 
-            // Optional: path for search page that enabled by default (`false` to disable it)
-            searchPagePath: 'search',
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
 
-            // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
-            insights: false,
-        },
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+      },
     }),
 };
 

@@ -1,4 +1,7 @@
 ---
+id : introduction
+title: Introduction
+slug: /introduction
 sidebar_position: 1
 ---
 
@@ -10,7 +13,7 @@ Built from the ground up for modern versions of the game, compatible with latest
 
 Regular updates and bug fixes ensure the plugin remains reliable and up-to-date. An active discord community and responsive GitHub issue tracking provide users with the required support.
 
-The most popular HungerGames plugin on Modrinth and one of the most popular on Spigot, with over 3000 downloads across various platforms.
+The most popular HungerGames plugin on Modrinth and one of the most popular on Spigot, with over **10000** downloads across various platforms.
 
 ## **Features**
 

@@ -1,4 +1,7 @@
 ---
+id: server-settings
+title: Server Settings
+slug: /setup/server-settings
 sidebar_position: 2
 ---
 

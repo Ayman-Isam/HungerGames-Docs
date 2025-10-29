@@ -1,4 +1,7 @@
 ---
+id: installation
+title: Installation
+slug: /setup/installation
 sidebar_position: 1
 ---
 

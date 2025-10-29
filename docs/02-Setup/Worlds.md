@@ -1,4 +1,7 @@
 ---
+id: worlds
+title: Worlds
+slug: /setup/worlds
 sidebar_position: 3
 ---
 

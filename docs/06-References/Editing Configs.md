@@ -1,4 +1,7 @@
 ---
+id: editing-configs
+title: Editing Config Files
+slug: /references/editing-configs
 sidebar_position: 2
 ---
 
