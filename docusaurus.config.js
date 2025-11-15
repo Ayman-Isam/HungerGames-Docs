@@ -147,7 +147,7 @@ const config = {
         appId: 'LUP9A2GHUQ',
 
         // Public API key: it is safe to commit it
-        apiKey: '4f092a6fd92ca86e2b0b063ec32d88c2',
+        apiKey: 'aabc050bacfd8d9491a7d02fbfe675d4',
 
         indexName: 'hungergames-aymanisam',
 
