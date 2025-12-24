@@ -2,7 +2,6 @@
 id: worlds
 title: Worlds
 slug: /setup/worlds
-sidebar_position: 3
 ---
 
 To function properly, the plugin requires at least 2 worlds dedicated to HungerGames, one lobby world and one arena. This page contains the instructions on how to set the worlds up.
@@ -56,6 +55,10 @@ Set the spawn location of the world using the `/setworldspawn` command. This goi
 ### **Step 4: Change Gamerules**
 It is recommended to disable certain gamerules (using `/gamerule`) for a smooth experience. These are as follows:
 
+:::warning
+Some gamerules only exist in certain versions of Minecraft, and their names may vary between versions. Please refer to the [Minecraft Wiki Gamerules](https://minecraft.wiki/w/Game_rule) for the latest updates.
+:::
+
 #### **announceAdvancements: false**
 Recommended to disable it to ensure that players aren't spammed with advancement notifications.
 
@@ -65,7 +68,7 @@ Recommended to disable it to have a constant time of day to reduce distractions.
 #### **doMobSpawning: false**
 Recommended to disable it to ensure mobs don't disrupt gameplay.
 
-#### **doMobSpawning: false**
+#### **doWeatherCycle: false**
 Recommended to disable it to have a constant weather of day to reduce distractions.
 
 ## **Lobby world**

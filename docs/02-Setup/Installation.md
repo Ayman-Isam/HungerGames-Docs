@@ -2,7 +2,6 @@
 id: installation
 title: Installation
 slug: /setup/installation
-sidebar_position: 1
 ---
 
 This page contains everything you need for installing the HungerGames plugin on your server for the first time along with the recommended way of doing so.

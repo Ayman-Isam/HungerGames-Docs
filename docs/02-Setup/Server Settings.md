@@ -2,14 +2,21 @@
 id: server-settings
 title: Server Settings
 slug: /setup/server-settings
-sidebar_position: 2
 ---
 
-Since this plugin modifies the game in a major way, it is recommended to change some server settings to ensure the plugin runs optimally. This page contains the recommended settings for the HungerGames plugin.
+Since this plugin modifies the game in a major way, it is recommended to change some server settings to ensure the plugin runs optimally. These changes can be made by editing the `server.properties` file. Further instructions on editing config files can be found in the [Editing Config Files](/docs/06-References/Editing%20Configs.md) section. This page contains the recommended settings for the HungerGames plugin.
+
+:::info
+Certain forks of Spigot, including Paper, provide additional performance-focused configuration options that can influence particle and entity visibility distances. Server administrators may adjust these settings as required.
+:::
+
+:::warning
+Some keys in the file may differ between Minecraft Versions. Please refer to the [Minecraft Wiki](https://minecraft.wiki/w/Server.properties) latest updates and defaults.
+:::
 
 ### **Allow Flight**
 ```yaml
-allow-flight: true
+allow-flight=true
 ```
 Setting this to true ensures that players don't get kicked from the server when they're jumping in the spawnpoints before a game.
 
@@ -30,14 +37,6 @@ Setting this to true ensures that when players join the game, their Gamemode is 
 gamemode=adventure
 ```
 Recommended to have it at Adventure since it doesn't allow players to break blocks. Can also be set to Survival to allow players to break certain blocks. For more info on allowing certain blocks to be broken, visit [Plugin Settings](/docs/04-Configuration/Plugin%20Settings.md).
-
-### **Spawn Mobs**
-```yaml
-spawn-animals=false
-spawn-monsters=false
-spawn-npcs=false
-```
-Recommended to have these as false to ensure that mobs don't destroy maps or distract players during the game.
 
 ### **Spawn Protection**
 ```yaml

@@ -2,7 +2,6 @@
 id: signs
 title: Signs
 slug: /setup/signs
-sidebar_position: 5
 ---
 
 In the plugin, signs are used to display information about the different arena worlds. These signs also allow players to interact with them to join specific arenas. The `/hg setsigns` command is used to set up these signs automatically.

@@ -2,7 +2,6 @@
 id: commands
 title: Commands
 slug: /references/commands
-sidebar_position: 1
 ---
 
 This page provides detailed information about the commands available in the HungerGames plugin, along with their required permissions.
@@ -64,6 +63,12 @@ This page provides detailed information about the commands available in the Hung
 - **Permission**: `hungergames.teleport` (default: op)
 - **Example Usage**: `/hg teleport steve seacliff`
 
+### **`/hg slot <create|assign|remove> <slot_name> [worldname]`**
+
+- **Description**: Allows you to create slots to setup signs in HungerGames. Argument `slot_name` is required, which is the name of the slot you want to create. Argument `world_name` is required for the option `create`, which is the name of the world you want to assign to the slot.
+- **Permission**: `hungergames.slot` (default: op)
+- **Example Usage**: `/hg slot assign seacliff`
+
 ### **`/hg chestrefill`**
 
 - **Description**: Allows you to refill chests in HungerGames. Mainly used for testing and debugging purposes.
@@ -112,11 +117,11 @@ This page provides detailed information about the commands available in the Hung
 - **Permission**: `hungergames.saveworld` (default: op)
 - **Example Usage**: `/hg saveworld`
 
-### **`/hg setsign`**
+### **`/hg team <player_name|all> <world_name>`**
 
-- **Description**: Allows you to set signs for players to teleport to arenas in HungerGames.
-- **Permission**: `hungergames.setsign` (default: op)
-- **Example Usage**: `/hg setsign`
+- **Description**: Allows you to teleport players to arenas in HungerGames. Argument `player_name` is required, which is the name of the player you want to teleport or `all` which teleports all players. Argument `world_name` is required, which is the name of the world you want to teleport the player to.
+- **Permission**: `hungergames.teleport` (default: op)
+- **Example Usage**: `/hg teleport steve seacliff`
 
 ## **Understanding Permission Keys**
 Each permission entry consists of the following keys:

@@ -25,7 +25,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Setup',
-      items: ['Setup/arenas', 'Setup/installation', 'Setup/server-settings', 'Setup/signs', 'Setup/worlds'],
+      items: ['Setup/installation', 'Setup/server-settings', 'Setup/worlds', 'Setup/arenas', 'Setup/signs'],
     },
     {
       type: 'category',
@@ -40,7 +40,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'References',
-      items: ['References/commands', 'References/editing-configs'],
+      items: ['References/editing-configs', 'References/commands', 'References/placeholders'],
     },
   ],
 };

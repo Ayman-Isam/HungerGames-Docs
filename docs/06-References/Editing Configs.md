@@ -2,7 +2,6 @@
 id: editing-configs
 title: Editing Config Files
 slug: /references/editing-configs
-sidebar_position: 2
 ---
 
 When using Minecraft plugins, it's common to edit configuration files to customize gameplay, mechanics, or features. These files often come in two main formats: YAML (.yml) and Properties (.properties). Below is a guide on understanding and safely editing these files.

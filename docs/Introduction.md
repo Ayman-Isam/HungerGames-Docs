@@ -2,7 +2,6 @@
 id : introduction
 title: Introduction
 slug: /introduction
-sidebar_position: 1
 ---
 
 Hungergames is a modern implementation of the original 2012 Minecraft Hungergames. This is a thrilling survival game based on the renowned HungerGames book/movie series. In this free-for-all battle, players must hunt for food and resources and be the last one alive.
@@ -22,10 +21,12 @@ The most popular HungerGames plugin on Modrinth and one of the most popular on S
 - 4 different tiers of chests, each with customizable loot
 - Customizable world border that shrinks over time
 - Automatic chest refills and supply drops at intervals
-- Scoreboard with various information related to the game
+- Individual scoreboard with various information related to the game
 - Allowing players to spectate after death and teleport to players alive
 - Support for Solo, Duo, Trios and Versus modes with option to vote for game mode
-- Automatic allocation of players to teams with teammate tracking
+- Integration with MySQl to store player stats persistently
+- Integration with Placeholder API for individual player stats and top global stats
+- Automatic and manual allocation of players to teams with teammate tracking
 - Team chat option to make messages only be seen by teammates
 - Customizable display of tips to assist players
 - Support for multiple maps and easy switching between maps
@@ -33,6 +34,7 @@ The most popular HungerGames plugin on Modrinth and one of the most popular on S
 - Customizable language support for individual players
 - Support for breaking blocks in the arena and restoring them after the game
 - Compass for tracking nearest enemies and teammates
+- Ability to run custom commands in the beginning and end of games
 
 
 
