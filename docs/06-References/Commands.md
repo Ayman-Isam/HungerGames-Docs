@@ -19,108 +19,126 @@ This page provides detailed information about the commands available in the Hung
 
 - **Description**: Allows you to join the game in HungerGames. Alternative to clicking on signs in the lobby. Argument `world_name` is required, which is the name of the world you want to join.
 - **Permission**: `hungergames.join` (default: true)
+- **Console**: Requires player to run command, unable to run from console.
 - **Example Usage**: `/hg join seacliff`
 
 ### **`/hg lobby`**
 
 - **Description**: Allows you to return to the lobby in HungerGames.
 - **Permission**: `hungergames.lobby` (default: true)
+- **Console**: Requires player to run command, unable to run from console.
 - **Example Usage**: `/hg lobby`
 
 ### **`/hg start`**
 
 - **Description**: Allows you to start the game in HungerGames.
 - **Permission**: `hungergames.start` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end.
 - **Example Usage**: `/hg start`
 
 ### **`/hg spectate`**
 
 - **Description**: Opens a gui that allows you to teleport to players while spectating after death.
 - **Permission**: `hungergames.spectate` (default: true)
+- **Console**: Requires player to run command, unable to run from console.
 - **Example Usage**: `/hg spectate`
 
 ### **`/hg teamchat`**
 
 - **Description**: Allows you to toggle team chat in HungerGames, which ensures that only your team can see your messages. Disabled by default.
 - **Permission**: `hungergames.teamchat` (default: true)
+- **Console**: Requires player to run command, unable to run from console.
 - **Example Usage**: `/hg spectate`
 
 ### **`/hg select`**
 
 - **Description**: Gives you an arena selector tool to select a region for an arena in HungerGames.
 - **Permission**: `hungergames.select` (default: op)
+- **Console**: Requires player to run command, unable to run from console.
 - **Example Usage**: `/hg spectate`
 
 ### **`/hg end`**
 
 - **Description**: Allows you to forcefully end the game in HungerGames.
 - **Permission**: `hungergames.end` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end.
 - **Example Usage**: `/hg spectate`
 
 ### **`/hg teleport <player_name|all> <world_name>`**
 
 - **Description**: Allows you to teleport players to arenas in HungerGames. Argument `player_name` is required, which is the name of the player you want to teleport or `all` which teleports all players. Argument `world_name` is required, which is the name of the world you want to teleport the player to.
 - **Permission**: `hungergames.teleport` (default: op)
+- **Console**: Can be run from console.
 - **Example Usage**: `/hg teleport steve seacliff`
 
-### **`/hg slot <create|assign|remove> <slot_name> [worldname]`**
+### **`/hg slot <create|assign|remove|list> <slot_name> [world_name]`**
 
-- **Description**: Allows you to create slots to setup signs in HungerGames. Argument `slot_name` is required, which is the name of the slot you want to create. Argument `world_name` is required for the option `create`, which is the name of the world you want to assign to the slot.
+- **Description**: Allows you to create slots to set up signs in HungerGames. Argument `slot_name` is required, which is the name of the slot you want to create. Argument `world_name` is required for the option `create`, which is the name of the world you want to assign to the slot.
 - **Permission**: `hungergames.slot` (default: op)
+- **Console**: Requires player to run command, unable to run from console
 - **Example Usage**: `/hg slot assign seacliff`
 
 ### **`/hg chestrefill`**
 
 - **Description**: Allows you to refill chests in HungerGames. Mainly used for testing and debugging purposes.
 - **Permission**: `hungergames.chestrefill` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end
 - **Example Usage**: `/hg chestrefill`
 
 ### **`/hg supplydrop`**
 
 - **Description**: Allows you to drop a supply crate in HungerGames. Mainly used for testing and debugging purposes.
 - **Permission**: `hungergames.supplydrop` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end
 - **Example Usage**: `/hg supplydrop`
 
 ### **`/hg setspawn`**
 
 - **Description**: Gives you a spawn point selector tool to set spawn points for arenas in HungerGames. This is where players get teleported to when they join the game before starting the game.
 - **Permission**: `hungergames.setspawn` (default: op)
+- **Console**: Requires player to run command, unable to run from console
 - **Example Usage**: `/hg setspawn`
 
 ### **`/hg create`**
 
 - **Description**: Allows you to create an arena in HungerGames from the selected region from the select command.
 - **Permission**: `hungergames.create` (default: op)
+- **Console**: Requires player to run command, unable to run from console
 - **Example Usage**: `/hg create`
 
 ### **`/hg scanarena`**
 
 - **Description**: Allows you to scan the arena for chests in HungerGames. This saves the locations of the chests in the arena for optimization purposes. Should be run after changing type or location of chests.
 - **Permission**: `hungergames.scanarena` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end
 - **Example Usage**: `/hg scanarena`
 
 ### **`/hg border <num_blocks> <center_x> <center_z>`**
 
 - **Description**: Allows you to change the size of the world border, along with its center in HungerGames.
 - **Permission**: `hungergames.border` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end
 - **Example Usage**: `/hg border 600 0 0`
 
 ### **`/hg reloadconfig`**
 
 - **Description**: Allows you to reload the config file for HungerGames.
 - **Permission**: `hungergames.reloadconfig` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end
 - **Example Usage**: `/hg reloadconfig`
 
 ### **`/hg saveworld`**
 
 - **Description**: Allows you to save the world to separate folder. Used with the `reset-world` option enabled to save the world before resetting it.
 - **Permission**: `hungergames.saveworld` (default: op)
+- **Console**: Can be run from console, requires `<world_name>` argument at the end
 - **Example Usage**: `/hg saveworld`
 
-### **`/hg team <player_name|all> <world_name>`**
+### **`/hg team <add|finalize|list|remove|reset> `**
 
 - **Description**: Allows you to teleport players to arenas in HungerGames. Argument `player_name` is required, which is the name of the player you want to teleport or `all` which teleports all players. Argument `world_name` is required, which is the name of the world you want to teleport the player to.
 - **Permission**: `hungergames.teleport` (default: op)
+- **Console**: Can be run from console
 - **Example Usage**: `/hg teleport steve seacliff`
 
 ## **Understanding Permission Keys**

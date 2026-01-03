@@ -30,12 +30,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Configuration',
-      items: ['Configuration/plugin-settings'],
+      items: ['Configuration/overview', 'Configuration/settings'],
     },
     {
       type: 'category',
       label: 'Languages',
-      items: ['Languages/en-us'],
+      items: ['Languages/overview', 'Languages/ar-sa', 'Languages/en-us', 'Languages/es-es', 'Languages/fr-fr', "Languages/ru-ru", "Languages/zh-cn"],
     },
     {
       type: 'category',

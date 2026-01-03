@@ -7,7 +7,7 @@ slug: /setup/arenas
 Arenas are a crucial part of the plugin as they are where the games take place. You can set up multiple arenas but at least one is required for the plugin to function. The arenas dictate where supply drops are spawned, where chests are refilled along with other features of the plugin. This page contains the instructions on how to set up each arena for HungerGames.
 
 ## **Selecting an Arena World**
-To set up an arena in a world, you need to first be in that arena world. To teleport to the world, run the `/hg teleport <player-world> <world-name>` command. 
+To set up an arena in a world, you need to first be in that arena world. To teleport to the world, run the `/hg teleport <player_name|all> <world_name>` command. 
 
 ## **Creating an Arena Region**
 To create an arena, you need to follow the steps below:
@@ -16,13 +16,13 @@ To create an arena, you need to follow the steps below:
 To select the region for the arena, you can use the `/hg select` command. This command gives you an Arena Selector Tool (Blaze Rod) to select the region for the arena. The region should be a rectangle with the corners being the two points you select. To select the first point, left-click the block with the arena selector tool and for the second point, right-click. You can select each block multiple times to get the exact region you want. 
 
 ### **Step 2: Creating the Arena**
-Once you're happy with the region, run the `/hg create` command to create the arena. You can also use this command multiple times until you're satisfied with the region. This saves the region to the `arena.yml` file in the folder `plugins/HungerGames/<world_name>`. You can edit this file to change the region later on.
+Once you're happy with the region, run the `/hg create` command to create the arena. You can also use this command multiple times until you're satisfied with the region. This saves the region to the `arena.yml` file in the folder `plugins/HungerGames/<world_name>/`. You can edit this file to change the region later on.
 
 ## **Setting Up the Arena**
 After creating the arena, you can set up the arena by following the steps below:
 
 ### **Step 1: Set World Border**
-To set the world border for the arena, run the `/hg border <num_blocks> <center_x> <center_z>` command. The `num_blocks` argument is the number of blocks from the center of the world to the edge of the border. The `center_x` and `center_z` arguments are the coordinates of the center of the world border. This can also be done in the config.yml file in the `plugins/HungerGames/world_name/` folder.
+To set the world border for the arena, run the `/hg border <num_blocks> <center_x> <center_z>` command. The `num_blocks` argument is the number of blocks from the center of the world to the edge of the border. The `center_x` and `center_z` arguments are the coordinates of the center of the world border. This can also be done in the config.yml file in the `plugins/HungerGames/<world_name>/` folder.
 
 ### **Step 2: Set Spawn Points**
 Before selecting the spawn points for the arena, you need blocks to set them on. You can use any block for this purpose. Generally, players are spawned at the center of the arena on slightly elevated platforms.

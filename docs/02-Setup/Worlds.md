@@ -32,22 +32,18 @@ Server/
 └── permissions.yml
 └── ...
 ```
-If you add a new world to the server, be sure to restart the server for the world to be tracked by the server.
+If you add a new world to the server, be sure to restart the server or run `/hg reloadconfig` for the world to be tracked by the server.
 
 :::warning
-
-It is highly recommended to not have the name of the world folder as `world` as it can cause issues with the plugin. This is because Minecraft has limitations on what plugins can do with the world folder named `world`.
-
+To perform certain actions, the plugin requires the arena worlds to not have the same name as the `level-name` key in `server.properties`. Features like resetting world requires replacing files, which Minecraft blocks because a folder matching the `level-name` is always required.
 :::
 
 :::info
-
 If you have changed the world folder path in `bukkit.yml` using the `world-container` key, make sure to use that path instead of the default `world` folder path.
-
 :::
 
 ### **Step 2: Teleport to the world**
-To teleport to the world, use the command `/hg teleport <player-world> <world-name>`. For more information about this command, visit the [Commands](/docs/06-References/Commands.md) section.
+To teleport to the world, use the command `/hg teleport <player_name|all> <world_name>`. For more information about this command, visit the [Commands](/docs/06-References/Commands.md) section.
 
 ### **Step 3: Set Spawn Location**
 Set the spawn location of the world using the `/setworldspawn` command. This going to be the location players get teleported to when they join the world and when a game ends.
@@ -59,17 +55,33 @@ It is recommended to disable certain gamerules (using `/gamerule`) for a smooth 
 Some gamerules only exist in certain versions of Minecraft, and their names may vary between versions. Please refer to the [Minecraft Wiki Gamerules](https://minecraft.wiki/w/Game_rule) for the latest updates.
 :::
 
-#### **announceAdvancements: false**
+```pvp: false```
+
+Recommended to disable it to ensure that players cannot attack each other outside of games.
+
+```doimmediaterespawn: true```
+
+Recommended to enable to ensure a more seamless transition from death to spectating.
+
+```announceAdvancements: false```
+
 Recommended to disable it to ensure that players aren't spammed with advancement notifications.
 
-#### **doDaylightCycle: false**
+```doDaylightCycle: false```
+
 Recommended to disable it to have a constant time of day to reduce distractions.
 
-#### **doMobSpawning: false**
+```doMobSpawning: false```
+
 Recommended to disable it to ensure mobs don't disrupt gameplay.
 
-#### **doWeatherCycle: false**
+```doWeatherCycle: false```
+
 Recommended to disable it to have a constant weather of day to reduce distractions.
+
+```locatorBar: false```
+
+Recommended to disable it to ensure that enemies aren't aware of each others locations
 
 ## **Lobby world**
 To set the lobby world up, first open the settings.yml file located inside the HungerGames folder inside the plugins' folder. The path is as follows:
@@ -86,7 +98,7 @@ Now change the `lobby-world` key to the name of the world you want to set as the
 lobby-world: "world"
 ```
 
-For more information on how to edit yaml files, visit the [Editing Configs](/docs/06-References/Editing%20Configs.md) page.
+For more information on how to edit YAML files, visit the [Editing Configs](/docs/06-References/Editing%20Configs.md) page.
 
 ## **Next Steps**
 After configuring the settings, proceed to the [Arena](Arenas.md) section to set up the arenas for HungerGames.
