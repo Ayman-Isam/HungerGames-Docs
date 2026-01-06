@@ -3,8 +3,7 @@ id : introduction
 title: Introduction
 slug: /introduction
 ---
-
-HungerGames is a modern implementation of the original 2012 Minecraft HungerGames. This is a thrilling survival game based on the renowned HungerGames book/movie series. In this free-for-all battle, players must hunt for food and resources and be the last one alive.
+HungerGames is a modern Minecraft plugin inspired by the classic 2012 Hunger Games game mode. It provides a fast-paced environment where players compete for resources, fight opponents and aim to be the last person alive. Designed for flexibility, it supports multiple arenas, game modes and extensive customization.
 
 ## **Why this plugin?**
 

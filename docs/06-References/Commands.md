@@ -134,12 +134,19 @@ This page provides detailed information about the commands available in the Hung
 - **Console**: Can be run from console, requires `<world_name>` argument at the end
 - **Example Usage**: `/hg saveworld`
 
-### **`/hg team <add|finalize|list|remove|reset> `**
+### **`/hg team <add|finalize|list|remove|reset> [team_name] [player_name] `**
 
-- **Description**: Allows you to teleport players to arenas in HungerGames. Argument `player_name` is required, which is the name of the player you want to teleport or `all` which teleports all players. Argument `world_name` is required, which is the name of the world you want to teleport the player to.
-- **Permission**: `hungergames.teleport` (default: op)
+- **Description**: Allows you to create and manage custom teams in HungerGames. `add` and `remove` are used to assign or remove players from a specified team. `finalize` locks in all teams and their members, while `reset` clears all teams and assignments. `list` displays all teams along with their current members. Arguments `team_name` and `player_name` are required when running the subcommands `add` or `remove`.  
+- **Permission**: `hungergames.team` (default: op)
 - **Console**: Can be run from console
-- **Example Usage**: `/hg teleport steve seacliff`
+- **Example Usage**: `/hg team add steve warriors`
+
+### **`/hg stats `**
+
+- **Description**: Allows a player to view their stats for HungerGames. Requires a database to be configured with the plugin.
+- **Permission**: `hungergames.stats` (default: op)
+- **Console**: Requires player to run command, unable to run from console
+- **Example Usage**: `/hg stats
 
 ## **Understanding Permission Keys**
 Each permission entry consists of the following keys:
