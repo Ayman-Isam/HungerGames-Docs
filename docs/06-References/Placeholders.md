@@ -64,9 +64,9 @@ Global placeholders use the same keys as individual ones, but uses more paramete
 
 ```leaderboard_top_<rank>_<stat>_<name|value>```
 
-- Replace <rank> with the position on the leaderboard to display, for example `leaderboard_top_**1**_<stat>_<name|value>`
-- Replace <stat> with the stat to display, for example `leaderboard_top_<rank>_**kills**_<name|value>`
-- Replace <name|value> with either `name` or `value` depending on whether you want to display the stat or player with said stat, for example `leaderboard_top_<rank>_<stat>_**name**`
+- Replace `<rank>` with the position on the leaderboard to display, for example `leaderboard_top_**1**_<stat>_<name|value>`
+- Replace `<stat>` with the stat to display, for example `leaderboard_top_<rank>_**kills**_<name|value>`
+- Replace `<name|value>` with either `name` or `value` depending on whether you want to display the stat or player with said stat, for example `leaderboard_top_<rank>_<stat>_**name**`
 
 ## Slot Placeholders
 If you'd like to use custom signs in your plugins, you can use these to display information about arenas.
@@ -77,4 +77,4 @@ If you'd like to use custom signs in your plugins, you can use these to display 
 | `slot_<slot_name>_progress` | Whether the game is in progress or waiting       | `In Progress`  |
 | `slot_<slot_name>_players`  | Numbers of players alive or spawnpoints occupied | `13 Alive`     |
 
-- Replace <slot_name> with the name of the slot, for example `slot_seacliff_progress`
+- Replace `<slot_name>` with the name of the slot, for example `slot_seacliff_progress`
