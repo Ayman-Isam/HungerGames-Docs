@@ -30,7 +30,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Configuration',
-      items: ['Configuration/overview', 'Configuration/settings'],
+      items: ['Configuration/overview', 'Configuration/settings', 'Configuration/config', "Configuration/items"],
     },
     {
       type: 'category',
